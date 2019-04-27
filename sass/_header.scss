@@ -1,0 +1,41 @@
+.header__wrapper{
+    background-color: $color-primary;
+}
+
+.header {
+    width: $contents-width;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    align-content: center;
+    justify-content: space-between;
+    justify-items: center;
+
+    .sns-icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.logo {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: .2rem;
+}
+
+.subtitle {
+    color: $color-primary-2;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.feature__icon {
+    width: 3rem;
+    height: 3rem;
+    fill: white;
+}
+
